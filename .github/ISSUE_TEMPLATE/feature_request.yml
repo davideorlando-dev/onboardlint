@@ -1,0 +1,25 @@
+name: Feature request
+description: Suggest an onboarding check or workflow improvement.
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Contributor problem
+      description: What concrete barrier does a new contributor encounter?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed check or behaviour
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Examples or evidence
+      description: Link public examples or describe a minimal fixture.
+      validations:
+      required: false
