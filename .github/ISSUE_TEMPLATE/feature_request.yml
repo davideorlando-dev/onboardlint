@@ -21,5 +21,5 @@ body:
     attributes:
       label: Examples or evidence
       description: Link public examples or describe a minimal fixture.
-      validations:
+    validations:
       required: false
